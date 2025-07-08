@@ -3,7 +3,6 @@ getSumBtn.append("Get Total Price");
 document.body.appendChild(getSumBtn);
 
 const getSum = () => {
-  // Get all price cells
   const priceElements = document.querySelectorAll(".price");
   let total = 0;
 
@@ -25,7 +24,7 @@ const getSum = () => {
   // Append to the table
   table.appendChild(newRow);
 
-  // Disable the button after adding total (optional)
+  
   getSumBtn.disabled = true;
 };
 
